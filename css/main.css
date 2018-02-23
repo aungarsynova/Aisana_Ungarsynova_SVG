@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+svg
+{
+	width: 100px;
+	height: 100px;
+}
+
+.icon:hover {
+		background-color: transparent;
+		transform: rotate(180deg);
+		box-shadow: none;
+}
+
+.icon2:hover
+{
+	background-color: transparent;
+	transform: scale(1.5, 1.5);
+	cursor: pointer;
+	box-shadow: none;
+
+}
